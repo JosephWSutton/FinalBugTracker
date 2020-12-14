@@ -29,4 +29,7 @@
   <ItemGroup>
     <Folder Include="Areas\Identity\Pages\Account\" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Areas\Identity\Pages\Account\Register.cshtml" />
+  </ItemGroup>
 </Project>
